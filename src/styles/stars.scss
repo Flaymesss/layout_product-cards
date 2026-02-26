@@ -1,0 +1,19 @@
+@import 'variables';
+
+.stars {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+
+  &__star {
+    background-image: url(../images/star-active.svg);
+    width: 16px;
+    height: 16px;
+    border-radius: 0.5px;
+  }
+
+  &__star:nth-child(n + 5) {
+    background-image: url(../images/star.svg);
+  }
+}
