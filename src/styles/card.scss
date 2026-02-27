@@ -85,13 +85,10 @@
       color: $white;
       text-decoration: none;
       text-transform: uppercase;
-    }
 
-    &:hover {
-      background-color: transparent;
-
-      .card__buy-link {
+      &:hover {
         color: $blue-accent;
+        background-color: transparent;
       }
     }
   }
